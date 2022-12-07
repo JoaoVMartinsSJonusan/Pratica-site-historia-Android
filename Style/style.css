@@ -40,12 +40,12 @@ body{
     color: white;
     background-image: linear-gradient(to top, var(--cor5), var(--cor3));
     padding-top: 30px;
-    
+    margin: auto;
 }
 
 header h1{
     font-family: 'Barlow Condensed', sans-serif;
-    font-size: 2.5em;
+    font-size: 2.3em;
     text-shadow: 2px 2px 0px rgb(0, 0, 0, 0.466);
     padding: 2px;
 }
@@ -75,7 +75,6 @@ nav{
 }
 
 .clear{
-
     clear: both;
 }
 
@@ -83,9 +82,8 @@ nav a{
     text-decoration: none;
     color: white;
     padding: 5px;
-    margin-left: 4px;
+    margin-left: 10px;
     transition-duration: 0.5s;
-
     float: left;
 }
 
